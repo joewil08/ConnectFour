@@ -338,6 +338,7 @@ class MainMenu:
         self.height = 500
         self.size = (self.width, self.height)
         self.screen = pygame.display.set_mode(self.size)
+        pygame.display.set_caption('Connect')
         # color and fonts
         self.white = (255, 255, 255)
         self.red = (255, 0, 0)
